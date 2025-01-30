@@ -1,0 +1,14 @@
+.. DNS Analyzer Documentation 
+
+DNS Analyzer Dokümantasyonu
+==========================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   kurulum
+   api
+   teknik
+   kod
+   kullanim

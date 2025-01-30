@@ -1,0 +1,34 @@
+# Kurulum Talimatları
+
+Kurulum Talimatları
+
+Gerekli Kütüphaneler:
+
+dnspython
+
+requests
+
+Kurulum için:
+
+pip install dnspython requests
+
+API Anahtarı:
+
+VirusTotal API kullanımı için bir API anahtarı almanız gerekir.
+
+Kayıt olun ve anahtarınızı alın: VirusTotal API.
+
+Çalıştırma:
+
+Programı aşağıdaki gibi çalıştırabilirsiniz:
+
+python dns_analyzer.py
+
+Sonuçlar:
+
+Sonuçlar belirtilen formatta (json veya txt) kaydedilecektir.
+
+Dosyalar çalıştırılan dizinde bulunur.
+
+Bu adımları takip ederek programı başarılı bir şekilde çalıştırabilirsiniz!
+

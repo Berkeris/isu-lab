@@ -1,0 +1,49 @@
+# Kod Dokümantasyonu
+
+
+Kod Dokümantasyonu
+
+Kodun işlevlerini açıklayan genel dokümantasyon:
+
+gecerli_domain_kontrolu(domain_adi): Gönderilen domain adının geçerli olup olmadığını kontrol eder.
+
+Girdi: Bir domain adı (örneğin, "example.com").
+
+Çıktı: Doğru formatta ise True, değilse False döner.
+
+gecerli_ip_kontrolu(ip_adresi): Gönderilen IP adresinin geçerli olup olmadığını kontrol eder.
+
+Girdi: Bir IP adresi (örneğin, "192.168.1.1").
+
+Çıktı: Geçerli bir IP adresi ise True, değilse False döner.
+
+dns_analiz(domain_adi): Bir domain üzerinde DNS kayıtlarını sorgular.
+
+Girdi: Domain adı (örneğin, "example.com").
+
+Çıktı: DNS kayıtlarıyla ilgili bilgileri içeren bir sözlük döner.
+
+virustotal_kontrol(domain_adi, api_anahtari): VirusTotal API kullanarak bir domain analizi yapar.
+
+Girdi: Domain adı ve geçerli bir VirusTotal API anahtarı.
+
+Çıktı: Domain ile ilgili VirusTotal sonuçları.
+
+ters_dns(ip_adresi): Verilen IP adresi için ters DNS sorgusu yapar.
+
+Girdi: IP adresi.
+
+Çıktı: PTR kaydını döner.
+
+sonuclari_disari_aktar(sonuclar): Analiz sonuçlarını belirtilen formatta bir dosyaya kaydeder.
+
+Girdi: Analiz sonuçları (sözlük formatında).
+
+Çıktı: Belirtilen formatta bir dosyaya kaydedilir.
+
+api_key_ekle(api_anahtari): Yeni bir API anahtarı eklemenizi sağlar.
+
+Girdi: Kullanıcıdan alınan API anahtarı.
+
+Çıktı: Doğrulama sonucu başarılı ise anahtar kaydedilir.
+

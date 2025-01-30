@@ -1,0 +1,44 @@
+# API Dokümantasyonu
+
+API Dokümantasyonu
+
+VirusTotal API Kullanımı:
+
+Domain analizleri için API gereklidir.
+
+API anahtarı kaydedilmeden önce api_key_ekle() fonksiyonunu kullanarak anahtarı doğrulamanız gerekir.
+
+API uç noktası: https://www.virustotal.com/api/v3/domains/{domain}
+
+Girdiler ve Çıktılar:
+
+Girdi: Domain adı ve geçerli bir API anahtarı.
+
+Çıktı: VirusTotal’dan dönen sonuçlar bir JSON formatındadır. Örneğin:
+
+{
+    "malicious": 2,
+    "details": [
+        {"engine": "Engine1", "result": "Malicious"},
+        {"engine": "Engine2", "result": "Suspicious"}
+    ]
+}
+
+Fonksiyonlar:
+
+virustotal_kontrol(domain_adi, api_anahtari):
+
+Açıklama: VirusTotal API kullanarak bir domain analizi yapar.
+
+Girdi: Domain adı ve geçerli bir API anahtarı.
+
+Çıktı: JSON formatında analiz sonuçları döner.
+
+api_key_ekle(api_anahtari):
+
+Açıklama: Yeni bir API anahtarı eklemenizi sağlar.
+
+Girdi: Kullanıcıdan alınan API anahtarı.
+
+Çıktı: Doğrulama sonucu başarılı ise anahtar kaydedilir.
+

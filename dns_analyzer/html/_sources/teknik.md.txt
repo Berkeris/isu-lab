@@ -1,0 +1,64 @@
+# Teknik Dokümantasyon
+
+Teknik Dokümantasyon
+
+Anahtar Fonksiyonlar
+
+gecerli_domain_kontrolu(domain_adi):
+
+Açıklama: Gönderilen domain adının geçerli olup olmadığını kontrol eder.
+
+Girdi: Bir domain adı (örneğin, "example.com").
+
+Çıktı: Doğru formatta ise True, değilse False döner.
+
+gecerli_ip_kontrolu(ip_adresi):
+
+Açıklama: Gönderilen IP adresinin geçerli olup olmadığını kontrol eder.
+
+Girdi: Bir IP adresi (örneğin, "192.168.1.1").
+
+Çıktı: Geçerli bir IP adresi ise True, değilse False döner.
+
+dns_analiz(domain_adi):
+
+Açıklama: Bir domain üzerinde DNS kayıtlarını sorgular.
+
+Girdi: Domain adı (örneğin, "example.com").
+
+Çıktı: DNS kayıtlarıyla ilgili bilgileri içeren bir sözlük döner.
+
+virustotal_kontrol(domain_adi, api_anahtari):
+
+Açıklama: VirusTotal API kullanarak bir domain analizi yapar.
+
+Girdi: Domain adı ve geçerli bir VirusTotal API anahtarı.
+
+Çıktı: Domain ile ilgili VirusTotal sonuçları.
+
+ters_dns(ip_adresi):
+
+Açıklama: Verilen IP adresi için ters DNS sorgusu yapar.
+
+Girdi: IP adresi.
+
+Çıktı: PTR kaydını döner.
+
+Önemli Değişkenler
+
+parametreler:
+
+Parametrelerin tanımlandığı yapı. Örnek:
+
+parametreler = {
+    "domain_adi": {
+        "tip": "str",
+        "varsayilan": "example.com",
+        "açıklama": "Analiz yapılacak domain adı"
+    },
+    "api_anahtari": {
+        "tip": "str",
+        "açıklama": "VirusTotal API anahtarı"
+    }
+}
+

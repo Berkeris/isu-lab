@@ -1,0 +1,36 @@
+# Kullanım Kılavuzu
+
+Kullanım Kılavuzu
+
+Programın çalıştırılması ve kullanımı için adımlar:
+
+Başlatma: Programı başlatmak için terminalde aşağıdaki komutu çalıştırın:
+
+python dns_analyzer.py
+
+Seçenekler:
+
+Program başlangıcında size "Varsayılan parametrelerle çalıştırılsın mı?" sorusu sorulur.
+
+Evet: Varsayılan parametrelerle çalışır ve sonuçları dosyaya kaydeder.
+
+Hayır: Kullanıcı etkileşimli menüye yönlendirilirsiniz.
+
+Menü Seçenekleri:
+
+1: DNS Analyzer çalıştırır.
+
+2: VirusTotal DNS Analyzer çalıştırır (API anahtarı gerekir).
+
+3: VirusTotal API anahtarı ekleme veya değiştirme.
+
+4: IP’den DNS çözümleme.
+
+5: Programdan çıkış.
+
+Çıktılar:
+
+Çıktılar seçilen dosya formatında (json veya txt) belirtilen dosya adına kaydedilir.
+
+Kaydedilen dosyalar, çalıştırılan dizinde bulunur.
+
